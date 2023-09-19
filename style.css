@@ -79,6 +79,13 @@ align-self: center;
   grid-column: 2 /5;
 }
 
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: flex-start;
+}
+
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
