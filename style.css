@@ -82,9 +82,8 @@ align-self: center;
 .nav ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-self: flex-start;
+  
 }
-
 
 .nav ul li {
   font-size: 16px;
@@ -95,6 +94,10 @@ align-self: center;
   background-color: #bccbde;
   grid-row: 4 / 20;
   grid-column: 2 /5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
 }
 
 .article p {
