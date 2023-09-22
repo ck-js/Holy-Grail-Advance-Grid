@@ -64,14 +64,25 @@ align-self: center;
   font-weight: normal;
   border-radius: 10px;
 }
-
+.photo {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 
 .sidebar .side-content {
   background-color: white;
   color: black;
   font-size: 16px;
   font-weight: normal;
+  
 }
+.side-content {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .nav {
   background-color: #FF7755;
